@@ -12,8 +12,8 @@ class Graph(Generic[V]):
     def __init__(self, vertices: List[V] = []) -> None:
         self._vertices: List[V] = vertices
         print("vertices: {a}, _vertices: {b}".format(
-          a=vertices,b=self._vertices) ) 
-        self._edges: List[List[Edge]] =  [ [] for _ in vertices] 
+          a=vertices,b=self._vertices) )
+        self._edges: List[List[Edge]] =  [ [] for _ in vertices]
         for i in self._vertices:
           print("i: {a}".format(a=i) )
         print("_edges: {a}".format(a=self._edges) )

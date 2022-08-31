@@ -1,5 +1,5 @@
-# graph.py
-# From Classic Computer Science Problems in Python Chapter 4
+# dna_search.py
+# From Classic Computer Science Problems in Python Chapter 2
 # Copyright 2018 David Kopec
 #
 # Licensed under the Apache License, Version 2.0 (the "License");

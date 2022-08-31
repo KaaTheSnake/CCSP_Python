@@ -27,7 +27,7 @@ class Graph(Generic[V]):
        #print("@@ type(self._vertices): <{a}>, self.__vertices".format(
        #  a=type(self._vertices),b=self._vertices) )
 
-        self._edges: List[List[Edge]] =  [ [] for _ in vertices] 
+        self._edges: List[List[Edge]] =  [ [] for _ in vertices]
        #print("@@ type(self._edges): <{a}>, self_edges: <{b}>".format(
        #  a=type(self._edges),b=self._edges) )
     #--------------------------------------------------------------
