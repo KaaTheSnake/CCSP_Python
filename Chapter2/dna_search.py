@@ -62,7 +62,7 @@ if __name__ == "__main__":
    acg: Codon = (Nucleotide.A, Nucleotide.C, Nucleotide.G)
    gat: Codon = (Nucleotide.G, Nucleotide.A, Nucleotide.T)
   #print(linear_contains(my_gene, acg))  # True
-   
+
    # -- Linear search (may be unsorted)
    if linear_contains(my_gene, acg):
       print("The string <{a}> contains codon <{b}>".format(
