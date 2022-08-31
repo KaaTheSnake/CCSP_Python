@@ -29,7 +29,7 @@ def total_weight(wp: WeightedPath) -> float:
 
 #-------------
 def mst(wg: WeightedGraph[V], start: int = 0) -> Optional[WeightedPath]:
-    if start > (wg.vertex_count - 1 ) or start < 0:
+    if start > (wg.vertex_count - 1) or start < 0:
        return None
     result: WeightedPath = [] # holds the final MST
     pq: PriorityQueue[WeightedEdge] = PriorityQueue()
