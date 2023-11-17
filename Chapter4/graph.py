@@ -85,7 +85,7 @@ class Graph(Generic[V]):
     def edges_for_index(self, index: int) -> List[Edge]:
         return self._edges[index]
     #--------------------------------------------------------------
-    # Look up the index of a vertex and return its edges (convencience method)
+    # Look up the index of a vertex and return its edges (convenience method)
     def edges_for_vertex(self, vertex: V) -> List[V]:
         return self.edges_for_index(self.index_of(vertex))
     #--------------------------------------------------------------
