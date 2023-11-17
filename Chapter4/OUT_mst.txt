@@ -1,0 +1,15 @@
+Seattle 678> San Francisco
+San Francisco 348> Los Angeles
+Los Angeles 50> Riverside
+Riverside 307> Phoenix
+Phoenix 887> Dallas
+Dallas 225> Houston
+Houston 702> Atlanta
+Atlanta 543> Washington
+Washington 123> Philadelphia
+Philadelphia 81> New York
+New York 190> Boston
+Washington 396> Detroit
+Detroit 238> Chicago
+Atlanta 604> Miami
+Total Weight: 5372

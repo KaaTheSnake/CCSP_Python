@@ -1,0 +1,11 @@
+self.name before assignment: <A>
+@@ self.name: <Jeff Knupp>
+@@ type(Customer): <<class 'type'>>
+@@ dir(Customer): <['__annotations__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'balance', 'get_balance', 'get_name', 'name', 'withdraw']>
+@@ Customer __annotations__: <{'name': <class 'str'>, 'balance': <class 'float'>}>
+Key: <name>, value: <class 'str'>.
+Key: <balance>, value: <class 'float'>.
+Customer funds available: <1000.0>
+Customer name: <Jeff Knupp>
+Customer withdraw: <500.0>
+Customer new balance: <500.0>
