@@ -13,7 +13,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 def fib5(n: int) -> int:
     if n == 0: return n  # special case
     last: int = 0 # initially set to fib(0)
@@ -22,8 +21,8 @@ def fib5(n: int) -> int:
         last, next = next, last + next
     return next
 
+
 if __name__ == "__main__":
     print(fib5(2))
     print(fib5(50))
 
-# -- end of file

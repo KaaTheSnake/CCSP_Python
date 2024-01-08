@@ -127,6 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MS Visual Studio
+Chapter4/.vs/
 Chapter4/.vs/Chapter4/v17/.suo
 Chapter4/.vs/slnx.sqlite
 Chapter4/.vs/VSWorkspaceState.json
